@@ -56,7 +56,7 @@ class Trainer:
         return local_db
 # Usage example
 if __name__ == "__main__":
-    rag = Trainer(r"C:\Users\WS966EX\QA_RAG\QA_RAG\QA_RAG\demo\data\Mansi Dhavale_CV.pdf")
+    rag = Trainer(r"path to your pdf file")
     
     rag.train()
         
